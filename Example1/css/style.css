@@ -65,6 +65,7 @@ span.amp {
 	text-decoration: none;
 	background: none;
 }
+
 #nav li a:link {
 	color: #fff;
 	 
@@ -90,6 +91,7 @@ the layout
 
 #main_title img {
 	border: 10px solid #ccc;
+	width: 780px;
 }
 
 #main_title h1 {
