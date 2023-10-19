@@ -1,4 +1,3 @@
-
 /*
 The font size here is set to 62.5% so that
 1em = 10px. This makes adjusting our typography
@@ -6,9 +5,9 @@ a little easier
 */
 body {
 	margin: 0 auto;
-	width: 800px;
+	/* width: 800px; */
 	padding: 0;
-	background: #7a2122 url('/Example1/images/body_bg.gif') repeat-x top;
+	background: #7a2122 url('../images/body_bg.gif') repeat-x top;
 	font-family: Helvetica, sans-serif;
 	font-size: 62.5%;
 	color: #333;
@@ -31,7 +30,7 @@ ul {
 
 
 /* This rule adds a nice style to our ampersands */
-span.amp {
+.amp {
 	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
 	font-weight: normal;
 	font-style: italic;
@@ -40,7 +39,7 @@ span.amp {
 #masthead {
 	margin: 0 auto ;
 	margin-top: 20px;
-	width: 800px;
+	/* width: 800px; */
 	color: #fff;
 }
 
@@ -52,6 +51,10 @@ span.amp {
 	float: right;
 	margin: 50px 10px 0 0;
 	font-size: 1.4em;
+	/* background: #333; */
+	/* padding: 10px; */
+	/* border: 2px solid #fff;
+	border-radius: 20px; */
 }
 
  
@@ -75,6 +78,12 @@ span.amp {
 	color: #ff0000;
 	 
 }
+#nav li a:hover{
+	color:#ff0;
+	background-color: brown;
+}
+
+
 /*
 Because the header content is outside the wrap <div>,
 we need to use the same "margin: 0 auto" trick to center
@@ -84,33 +93,32 @@ the layout
 	clear: both;
 	margin: 0 auto;
 	padding: 10px;
-	width: 780px;
+	/* width: 780px; */
 	background: #fff;
 	border: 10px solid #5c0505;
 }
 
-#main_title img {
+/* #main_title img {
 	border: 10px solid #ccc;
-	width: 780px;
-}
+} */
 
-#main_title h1 {
+/* #main_title h1 {
 	font-size: 2em;
 	margin: 10px 0 0 0;
 	padding: 10px;
 	text-align: center;
-	background: url('/Example1/images/tagline_bg.gif') repeat-x;
-}
+	background: url('../images/tagline_bg.gif') repeat-x;
+} */
 
-#content, #sidebar {
+/* #content, #sidebar {
 	width: 360px;
 	margin: 20px 0 20px 0;
 	padding: 10px;
-}
+} */
 
-#content {
+/* #content {
 	float: right;
-}
+} */
 
 #content h2 {
 	font-size: 2.4em;
@@ -130,10 +138,10 @@ the layout
 	margin: 0 0 10px 0;
 }
 
-#sidebar {
+/* #sidebar {
 	float: left;
 	background: #eee;
-}
+} */
 
 #sidebar h2 {
 	font-weight: bold;
@@ -142,11 +150,11 @@ the layout
 	padding: 5px;
 }
 
-#port li {
+/* #port li {
 	margin: 0 10px 20px 0;
 	float: left;
 	border: 5px solid #ddd;
-}
+} */
 
 #footer {
 	clear: both;
@@ -156,4 +164,3 @@ the layout
 	text-align: center;
 	color: #777;
 }
-  
